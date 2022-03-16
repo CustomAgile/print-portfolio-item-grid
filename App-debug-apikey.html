@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Print Portfolio Item Grid</title>
+    <script type="text/javascript">
+        var APP_BUILD_DATE = "Tue Nov 01 2016 10:56:19 GMT-0600 (MDT)";
+    </script>
+    
+    <script type="text/javascript" src="https://rally1.rallydev.com/apps/2.1/sdk-debug.js?apiKey=_PUT_APIKEY_HERE_"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            Rally.loadScripts(["src/javascript/utils/__ts-info-link.js","src/javascript/utils/__ts-logger.js","src/javascript/utils/_ts-bulk-menu.js","src/javascript/utils/_ts-card-configuration.js","src/javascript/utils/_ts-card-position.js","src/javascript/utils/_ts-gridboardfieldpicker.js","src/javascript/utils/_ts-override-rallygrid.js","src/javascript/utils/_ts-print-cards.js","src/javascript/utils/overrides.js","src/javascript/utils/portfolio-item-selector.js","src/javascript/utils/settings.js","src/javascript/utils/toolbox.js","src/javascript/app.js"],
+	            function() {
+	                Rally.launchApp('PPIC', {
+	                    name: 'Print Portfolio Item Grid'
+	                })
+	            }, true);
+        });
+    </script>
+<link rel="stylesheet" type="text/css" href="src/style/_ts-print-card.css"><link rel="stylesheet" type="text/css" href="src/style/app.css">
+
+</head>
+<body></body>
+</html>
